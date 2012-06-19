@@ -2,8 +2,10 @@ from django.conf import settings # top-level setttings
 
 SUBMODULE_NAME = 'problems'
 INDIVO_SERVER_OAUTH = {
-  'consumer_key': SUBMODULE_NAME+'@apps.indivo.org',
-  'consumer_secret': SUBMODULE_NAME
+#  'consumer_key': SUBMODULE_NAME+'@apps.indivo.org',
+#  'consumer_secret': SUBMODULE_NAME
+  "consumer_key": "sampleweb@apps.indivo.org",
+  "consumer_secret": "yourwebapp"
 }
 INDIVO_SERVER_LOCATION = settings.INDIVO_SERVER_LOCATION
 INDIVO_UI_SERVER_BASE = settings.INDIVO_UI_SERVER_BASE
